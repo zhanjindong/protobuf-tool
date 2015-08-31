@@ -4,7 +4,7 @@
  * File Name      : NormalizationUtils.java
  */
 
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 import org.apache.commons.lang.StringUtils;
 

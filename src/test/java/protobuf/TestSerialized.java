@@ -1,8 +1,8 @@
 package protobuf;
 
-import org.apache.commons.lang.SerializationUtils;
+import io.jindong.pbtool.SavedObject;
 
-import com.iflytek.ossp.framework.dt.SavedObject;
+import org.apache.commons.lang.SerializationUtils;
 
 public class TestSerialized {
 	public static void main(String[] args) {

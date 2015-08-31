@@ -1,4 +1,4 @@
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

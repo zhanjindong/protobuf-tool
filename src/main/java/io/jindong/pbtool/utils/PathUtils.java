@@ -4,7 +4,7 @@
  * File Name      : PathUtils.java
  */
 
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 import java.io.File;
 import java.io.IOException;

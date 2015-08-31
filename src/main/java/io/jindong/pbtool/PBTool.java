@@ -1,4 +1,13 @@
-package com.iflytek.ossp.framework.dt;
+package io.jindong.pbtool;
+
+import io.jindong.pbtool.utils.DateUtils;
+import io.jindong.pbtool.utils.IOUtils;
+import io.jindong.pbtool.utils.NormalizationUtils;
+import io.jindong.pbtool.utils.PathUtils;
+import io.jindong.pbtool.utils.ReflectionUtil;
+import io.jindong.pbtool.utils.ResourceUtils;
+import io.jindong.pbtool.utils.SeparatorUtils;
+import io.jindong.pbtool.utils.UrlConnectionUtils;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -81,14 +90,6 @@ import org.apache.commons.lang.SerializationUtils;
 import org.apache.commons.lang.StringUtils;
 
 import com.baidu.bjf.remoting.protobuf.IDLProxyObject;
-import com.iflytek.ossp.framework.dt.utils.DateUtils;
-import com.iflytek.ossp.framework.dt.utils.IOUtils;
-import com.iflytek.ossp.framework.dt.utils.NormalizationUtils;
-import com.iflytek.ossp.framework.dt.utils.PathUtils;
-import com.iflytek.ossp.framework.dt.utils.ReflectionUtil;
-import com.iflytek.ossp.framework.dt.utils.ResourceUtils;
-import com.iflytek.ossp.framework.dt.utils.SeparatorUtils;
-import com.iflytek.ossp.framework.dt.utils.UrlConnectionUtils;
 
 public class PBTool {
 	private static Map<String, IDLProxyObject> reqProxyObjects = new HashMap<String, IDLProxyObject>();
@@ -1505,7 +1506,7 @@ public class PBTool {
 						String setText = "";
 						if (setVal != null) {
 							if (ReflectionUtil.isByteArray(uo.getFieldType())) {
-								setText = com.iflytek.ossp.framework.dt.utils.StringUtils
+								setText = io.jindong.pbtool.utils.StringUtils
 										.decodeUTF8((byte[]) setVal);
 							} else {
 								setText = setVal.toString();

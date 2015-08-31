@@ -4,7 +4,7 @@
  * File Name      : EncodingConstants.java
  */
 
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 /**
  * 编码类型常量枚举

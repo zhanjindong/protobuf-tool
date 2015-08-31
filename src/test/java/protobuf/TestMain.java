@@ -1,5 +1,7 @@
 package protobuf;
 
+import io.jindong.pbtool.ProtoIDLProxy;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,7 +13,6 @@ import org.apache.commons.io.FileUtils;
 
 import com.baidu.bjf.remoting.protobuf.IDLProxyObject;
 import com.baidu.bjf.remoting.protobuf.ProtobufIDLProxy;
-import com.iflytek.ossp.framework.dt.ProtoIDLProxy;
 
 public class TestMain {
 	static void test1() throws IOException {

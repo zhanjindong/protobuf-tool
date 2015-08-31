@@ -4,7 +4,7 @@
  * File Name      : PunctuationConstants.java
  */
 
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 /**
  * 标点符号常量枚举

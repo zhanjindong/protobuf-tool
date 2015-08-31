@@ -1,4 +1,7 @@
-package com.iflytek.ossp.framework.dt;
+package io.jindong.pbtool;
+
+import io.jindong.pbtool.PBTool.UserData;
+import io.jindong.pbtool.utils.ReflectionUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
@@ -12,9 +15,6 @@ import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
 import org.apache.commons.lang.StringUtils;
-
-import com.iflytek.ossp.framework.dt.PBTool.UserData;
-import com.iflytek.ossp.framework.dt.utils.ReflectionUtil;
 
 /**
  * 工具类。
@@ -43,7 +43,7 @@ public class PBUtils {
 			return Boolean.parseBoolean(src);
 		}
 		if (ReflectionUtil.isByteArray(targetType)) {// byte[]
-			return com.iflytek.ossp.framework.dt.utils.StringUtils
+			return io.jindong.pbtool.utils.StringUtils
 					.encodeUTF8(src.toString());
 		}
 		return src;

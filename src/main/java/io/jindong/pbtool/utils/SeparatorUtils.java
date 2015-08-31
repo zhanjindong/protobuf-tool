@@ -1,4 +1,4 @@
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 import java.util.Properties;
 

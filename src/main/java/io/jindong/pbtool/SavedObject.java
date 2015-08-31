@@ -1,4 +1,4 @@
-package com.iflytek.ossp.framework.dt;
+package io.jindong.pbtool;
 
 import java.io.Serializable;
 import java.util.Map;

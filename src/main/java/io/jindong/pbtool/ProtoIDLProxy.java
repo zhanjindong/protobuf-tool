@@ -1,4 +1,7 @@
-package com.iflytek.ossp.framework.dt;
+package io.jindong.pbtool;
+
+import io.jindong.pbtool.utils.IOUtils;
+import io.jindong.pbtool.utils.SeparatorUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,8 +11,6 @@ import java.util.Map;
 
 import com.baidu.bjf.remoting.protobuf.IDLProxyObject;
 import com.baidu.bjf.remoting.protobuf.ProtobufIDLProxy;
-import com.iflytek.ossp.framework.dt.utils.IOUtils;
-import com.iflytek.ossp.framework.dt.utils.SeparatorUtils;
 
 public class ProtoIDLProxy {
 

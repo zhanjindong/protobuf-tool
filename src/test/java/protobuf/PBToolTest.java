@@ -1,5 +1,11 @@
 package protobuf;
 
+import io.jindong.pbtool.PBUtils;
+import io.jindong.pbtool.ProtoIDLProxy;
+import io.jindong.pbtool.utils.IOUtils;
+import io.jindong.pbtool.utils.ReflectionUtil;
+import io.jindong.pbtool.utils.RegexUtils;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,11 +17,6 @@ import java.util.Map.Entry;
 
 import com.baidu.bjf.remoting.protobuf.IDLProxyObject;
 import com.baidu.bjf.remoting.protobuf.ProtobufIDLProxy;
-import com.iflytek.ossp.framework.dt.PBUtils;
-import com.iflytek.ossp.framework.dt.ProtoIDLProxy;
-import com.iflytek.ossp.framework.dt.utils.IOUtils;
-import com.iflytek.ossp.framework.dt.utils.ReflectionUtil;
-import com.iflytek.ossp.framework.dt.utils.RegexUtils;
 
 public class PBToolTest {
 	public static void main(String[] args) throws IOException,

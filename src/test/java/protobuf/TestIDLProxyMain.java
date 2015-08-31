@@ -1,5 +1,8 @@
 package protobuf;
 
+import io.jindong.pbtool.ProtoIDLProxy;
+import io.jindong.pbtool.utils.ReflectionUtil;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,8 +19,6 @@ import org.apache.commons.lang.StringUtils;
 import com.baidu.bjf.remoting.protobuf.IDLProxyObject;
 import com.baidu.bjf.remoting.protobuf.ProtobufIDLProxy;
 import com.google.protobuf.Descriptors.DescriptorValidationException;
-import com.iflytek.ossp.framework.dt.ProtoIDLProxy;
-import com.iflytek.ossp.framework.dt.utils.ReflectionUtil;
 import com.squareup.protoparser.ProtoFile;
 import com.squareup.protoparser.ProtoSchemaParser;
 import com.squareup.protoparser.Type;

@@ -1,4 +1,4 @@
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

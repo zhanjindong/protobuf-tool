@@ -4,7 +4,7 @@
  * File Name      : ResourceConstants.java
  */
 
-package com.iflytek.ossp.framework.dt.utils;
+package io.jindong.pbtool.utils;
 
 /**
  * 与资源寻址相关的常量枚举
